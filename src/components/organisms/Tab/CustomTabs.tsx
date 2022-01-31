@@ -20,7 +20,7 @@ function CustomTabs(props:tabProps) {
   
     return (
       <ThemeProvider theme={customTheme}>
-        <Box sx={{borderBottom: 1, borderColor: 'divider', justifyContent:"", width:"1180px", ml:24}}>
+        <Box sx={{borderBottom: 1, borderColor: 'divider', justifyContent:"", width:"1440px", ml:24}}>
           <Tabs
             value={value}
             onChange={handleChange}

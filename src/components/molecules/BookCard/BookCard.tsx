@@ -13,7 +13,7 @@ import AddIcon from '@mui/icons-material/Add';
 
 
 
-interface bookCardProps{
+interface BookCardProps{
   title: string;
   author: string;
   image: string;
@@ -25,7 +25,7 @@ interface bookCardProps{
   category:string
 }
 
-function BookCard(props:bookCardProps) {
+function BookCard(props:BookCardProps) {
     const className = bookCardStyle()
   return <div>
       <ThemeProvider theme={customTheme}>

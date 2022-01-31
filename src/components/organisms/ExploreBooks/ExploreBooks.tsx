@@ -1,4 +1,3 @@
-import React from 'react';
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Box } from "@mui/material";
@@ -65,7 +64,7 @@ function ExploreBooks() {
     });
   };
   return (
-    <Box sx={{ml:24, width:"1340px"}}>
+    <Box sx={{ml:24, width:"1610px"}}>
       <TypographyTag
         sx={{ marginTop: "80px", marginBottom: "25px",fontSize:"24px" }}
         variant="h3"

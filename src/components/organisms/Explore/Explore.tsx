@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 import { styles } from './ExploreStyles';
-import { Backdrop, Grid, Link, Menu, MenuItem } from '@mui/material';
+import { Backdrop, Grid, Link, Menu, MenuItem, Box  } from '@mui/material';
 import TypographyTag from '../../atoms/typography/TypographyTag';
 import { AiOutlineRocket } from "react-icons/ai";
 import { BiCommentDots } from "react-icons/bi";
@@ -13,7 +13,6 @@ import { TiShoppingBag } from "react-icons/ti";
 import { RiPsychotherapyLine, RiLeafLine, RiLightbulbFlashLine, RiHeartsLine} from "react-icons/ri";
 import { GiSandsOfTime } from "react-icons/gi";
 import { FiTarget } from "react-icons/fi";
-import { Box } from '@mui/material';
 import CustomButton from '../../atoms/Button/CustomButton';
 
 
@@ -24,7 +23,6 @@ function Explore() {
 
   const openMenu = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorElNav(event.currentTarget);
-    //document.body.style.background = "rgba(157, 163, 166, 0.45)";
     setDrop(false)
   };
 
