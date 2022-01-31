@@ -1,0 +1,125 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Bring Your Human to Work",
+      "author": "Erica Keswin",
+      "image": "/assets/images/1.png",
+      "readingTime": "13 minute read",
+      "userCount": "20k reads",
+      "progress": 55,
+      "status": "finished",
+      "category": "featured audio blinks"
+    },
+    {
+      "id": 2,
+      "title": "Beyond Entreprenurship",
+      "author": "Jim Collins & Bill Lazier",
+      "image": "/assets/images/2.png",
+      "readingTime": "13-minute read",
+      "userCount": "19k reads",
+      "progress": 100,
+      "status": "finished",
+      "category": "trending blinks"
+    },
+    {
+      "id": 3,
+      "title": "Employee to Entrepreneur",
+      "author": "Steve Glaveski",
+      "image": "/assets/images/11.png",
+      "readingTime": "15-minute read",
+      "userCount": "25k reads",
+      "progress": 25,
+      "status": "finished",
+      "category": "trending blinks"
+    },
+    {
+      "id": 4,
+      "title": "Doesn’t Hurt to Ask",
+      "author": "Trey Gowdy",
+      "image": "/assets/images/3.png",
+      "readingTime": "13-minute read",
+      "userCount": "1.9k reads",
+      "progress": 45,
+      "status": "currently reading",
+      "category": "featured audio blinks"
+    },
+    {
+      "id": 5,
+      "title": "The Fate of Food",
+      "author": "Amanda Little",
+      "image": "/assets/images/4.png",
+      "readingTime": "12-minute read",
+      "userCount": "16k reads",
+      "progress": 25,
+      "status": "finished",
+      "category": "trending blinks"
+    },
+    {
+      "id": 6,
+      "title": "Lives of the Stoics",
+      "author": "Ryan Holiday, Stephen Hansel",
+      "image": "/assets/images/5.png",
+      "readingTime": "13-minute read",
+      "userCount": "2.5k reads",
+      "progress": 100,
+      "status": "currently reading",
+      "category": "trending blinks"
+    },
+    {
+      "id": 7,
+      "title": "Loving Your Business",
+      "author": "Debbie King",
+      "image": "/assets/images/6.png",
+      "readingTime": "13-minute read",
+      "userCount": "71k reads",
+      "progress": 100,
+      "status": "explore",
+      "category": "trending blinks"
+    },
+    {
+      "id": 8,
+      "title": "The Lonely Century",
+      "author": "Noreena Hertz",
+      "image": "/assets/images/7.png",
+      "readingTime": "13-minute read",
+      "userCount": "42k reads",
+      "progress": 66,
+      "status": "currently reading",
+      "category": "just added"
+    },
+    {
+      "id": 9,
+      "title": "Eat Better, Feel Better",
+      "author": "Giada De Laurentiis",
+      "image": "/assets/images/8.png",
+      "readingTime": "13-minute read",
+      "userCount": "1.9k reads",
+      "progress": 30,
+      "status": "currently reading",
+      "category": "just added"
+    },
+    {
+      "id": 10,
+      "title": "Dropshipping",
+      "author": "James Moore",
+      "image": "/assets/images/9.png",
+      "readingTime": "12-minute read",
+      "userCount": "1.9k reads",
+      "progress": 35,
+      "status": "currently reading",
+      "category": "just added"
+    },
+    {
+      "id": 11,
+      "title": "Being Boss",
+      "author": "Kathleen Shannon and Emily",
+      "image": "/assets/images/10.png",
+      "readingTime": "12-minute read",
+      "userCount": "1.9k reads",
+      "progress": 100,
+      "status": "finished",
+      "category": "trending blinks"
+    }
+  ]
+}
