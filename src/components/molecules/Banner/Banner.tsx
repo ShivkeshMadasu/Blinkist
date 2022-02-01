@@ -5,7 +5,7 @@ import banner from '../../../assets/Reading.png'
 
 function Banner() {
   return <div>
-      <Box sx={{width:"912px", height:"264px", ml:24, marginTop:"32px", background:"#F1F6F4", display: { sm: "block", md: "flex" }, alignItems: "center" }} >
+      <Box sx={{width:"1000px", height:"264px", ml:34, marginTop:"32px", background:"#F1F6F4", display: { sm: "block", md: "flex" }, alignItems: "center" }} >
         <Box >
             <Box sx={{ padding: "45px 0px 0px 45px"}} >
                 <TypographyTag variant="h1" >

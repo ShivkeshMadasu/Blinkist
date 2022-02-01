@@ -14,7 +14,7 @@ function SearchBar() {
     
     const className = useStyles();
   return <div>
-      <Input sx={{width:"658px", top:"58px", marginBottom:"50px", ml:24}} startAdornment={<FiSearch style={{ color: "#3A4649", width: "23.7px", height: "23.7px", marginRight:"25.7" }} /> }
+      <Input sx={{width:"800px", top:"58px", marginBottom:"50px", ml:34}} startAdornment={<FiSearch style={{ color: "#3A4649", width: "23.7px", height: "23.7px", marginRight:"25.7" }} /> }
         placeholder='Search by title or author' className={className.h3} />
   </div>;
 }

@@ -57,7 +57,7 @@ function Footer() {
   return <div>
       <Box sx={{ backgroundColor:"#F1F6F4", width:"100%" }}>
         <Box  sx={{ display:{ sm:"block", md:"flex" }, paddingTop:"38px" }} >
-            <Box sx={{  width: "378px", ml:24 }} >
+            <Box sx={{  width: "378px", ml:34 }} >
                 <Box>
                 <Logo />
                 </Box>
@@ -89,7 +89,7 @@ function Footer() {
                 </Box>
             </Box>
         </Box>
-        <Box sx={{ padding:"38px 0px", width:"546px", height:"22px", ml:24 }} >
+        <Box sx={{ padding:"38px 0px", width:"546px", height:"22px", ml:34 }} >
           <TypographyTag variant="caption" className={style.caption} >
           © Blinkist 2021 Sitemap   |   Imprint   |   Terms of Service   |   Privacy Policies
           </TypographyTag>

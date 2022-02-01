@@ -55,7 +55,7 @@ function BookDetail() {
     })
     navigate("/");
     }
-  return <Box sx={{ml:24, width:"1340px", marginTop:"90px", marginBottom:"260px"}}>
+  return <Box sx={{ml:34, width:"1340px", marginTop:"90px", marginBottom:"260px"}}>
       <Box>
           <TypographyTag variant="body2" children="Get the key ideas from" />
       </Box>
@@ -74,7 +74,7 @@ function BookDetail() {
                 <TypographyTag variant="caption" children="15-minute read" sx={{ marginTop: "1px" }} />
             </TypographyTag>
             <Box sx={{ display: { md: "flex" }, marginTop: "83px" }}>
-                <Button variant="outlined" sx={{ marginRight: "31.5px", color: "#22C870" }} >
+                <Button variant="outlined" sx={{ marginRight: "31.5px", color: "#22C870", textTransform: 'none' }} >
                     Read now
                 </Button>
 
@@ -82,6 +82,7 @@ function BookDetail() {
                     sx={{ marginTop: { xs: "10px", sm: "0px" },
                           backgroundColor: "#2CE080",
                           color: "#03314B",
+                          textTransform: 'none',
                           "&.MuiButton-root:hover": {
                           backgroundColor: "#2CE080",
                           color: "white",
@@ -94,7 +95,7 @@ function BookDetail() {
                     sx={{
                         marginLeft: { sm: "31.5px" },
                         marginTop: { xs: "10px", sm: "0px" },
-                        color: "#6D787E",
+                        color: "#6D787E", textTransform: 'none'
                     }} >
                     Send to Kindle
                 </Button>
@@ -103,7 +104,7 @@ function BookDetail() {
             <Box sx={{ marginTop: "60px", width:"600px" }}>
                 <TabContext value={value}>
                     <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
-                        <TabList onChange={handleChange} aria-label="lab API tabs example" className={className.style} variant="fullWidth">
+                        <TabList onChange={handleChange}  indicatorColor="primary" className={className.style} variant="fullWidth">
                             <Tab label="Synopsis" value="Synopsis" />
                             <Tab label="Who is it for?" value="Who is it for?" />
                             <Tab label="About the author" value="About the author" />

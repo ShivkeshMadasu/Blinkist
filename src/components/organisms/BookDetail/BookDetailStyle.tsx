@@ -23,9 +23,10 @@ export const useStyles = makeStyles({
         fontStyle: "normal",
         fontWeight: "700",
         fontSize: "16px",
-        padding: "16px",
+        padding: "inherit",
         alignItems: "flex-start",
         width: "200px",
+        textTransform: 'none',
         "&:hover": {
         color: "#03314B",
         },
@@ -34,4 +35,5 @@ export const useStyles = makeStyles({
         },
     },
     },
+
 });

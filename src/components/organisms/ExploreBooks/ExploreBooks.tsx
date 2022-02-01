@@ -64,7 +64,7 @@ function ExploreBooks() {
     });
   };
   return (
-    <Box sx={{ml:24, width:"1610px"}}>
+    <Box sx={{ml:34, width:"1400px"}}>
       <TypographyTag
         sx={{ marginTop: "80px", marginBottom: "25px",fontSize:"24px" }}
         variant="h3"

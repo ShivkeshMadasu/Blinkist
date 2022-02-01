@@ -61,7 +61,7 @@ interface Book{
               progress={book.progress}
               category={book.category}
               onClick={() => {
-                navigate("/book");
+                navigate("/book?id=" + book.id);
               }}
             />
           </Grid>
@@ -71,16 +71,16 @@ interface Book{
     return (
       <div>
         <div className={className.title}>
-          <Typography variant="h1" children="My Library" sx={{ml:24}} />
+          <Typography variant="h1" children="My Library" sx={{ml:34}} />
         </div>
         <TabContext value={currentState}>
           <Tab stateHandler={handleState} />
-            <TabPanel value="currently reading" sx={{ml:21}}>
+            <TabPanel value="currently reading" sx={{ml:31, mr:16}}>
               <Grid container rowSpacing={3} >
                 {cards(currentReadingBooks)}
               </Grid>
             </TabPanel>
-            <TabPanel value="finished" sx={{ml:21}}>
+            <TabPanel value="finished" sx={{ml:31, mr:16}}>
               <Grid container rowSpacing={3} >
                 {cards(finishedBooks)}
               </Grid>

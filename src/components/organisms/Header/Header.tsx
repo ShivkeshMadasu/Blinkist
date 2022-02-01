@@ -14,7 +14,7 @@ function Header() {
       <ThemeProvider theme={customTheme}>
         <AppBar position="static" sx={{backgroundColor:"#FFFF", boxShadow:"none"}} >
             <Toolbar>
-                <Box sx={{ml:20}}>
+                <Box sx={{ml:30}}>
                 <Logo />
                 </Box>
                 <Box sx={{ flexGrow: 1, display: { xs: 'flex'} }}>
@@ -41,7 +41,7 @@ function Header() {
                 <Box sx={{ display: { xs: "flex" } }}>
                 <Avatar children='S' />
                 <IconButton
-                    sx={{color:"#042330",mr:19,ml:0}}
+                    sx={{color:"#042330",mr:29,ml:0}}
                     edge="start"
                     aria-label="expand more icon"
                     >
